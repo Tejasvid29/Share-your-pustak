@@ -1,0 +1,122 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+/* top-section */
+#top
+{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.container-fluid{
+    padding: 3%;
+    background-color: black;
+    
+}
+.nav-brand{
+    display: inline;
+    float: left;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.brand{
+    color: white;
+}
+.search-container{
+    display: inline-block;
+    margin: 0;
+    background-color: white;
+}
+input[type=text] {
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+  }
+.search-container button {
+    padding: 10px 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #F2F2F2;
+  }
+.nav-items{
+    display: inline;
+    float: right;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    margin: 0 20px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.item:hover{
+    display: inline-block;
+    position: relative;
+}
+.item::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 1.5%;
+    transform: scaleX(0);
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    width: 100%;
+  }
+/*              MIDDLE CONTAINTER                */
+#middle
+{
+    padding-top: 200px;
+}
+  .left-girl
+  {
+    float: left;
+    
+  }
+  .guy{
+    width: 57%;
+  }
+  .right-guy
+  {
+    margin-left: 100px;
+    float: right;
+    
+  }
+  .mode {
+    float:right;
+}
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+.btn{
+    height: 30px;
+    width: 30px;
+}
