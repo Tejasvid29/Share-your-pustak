@@ -60,27 +60,10 @@ a{
     color: white;
 }
 .item:hover{
-    display: inline-block;
+    color: silver;
+    display: inline-flex;
     position: relative;
 }
-.item::after{
-    content: '';
-    position: absolute;
-    background-color: white;
-    width: 1.5%;
-    transform: scaleX(0);
-    height: 2px; 
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.item:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    width: 100%;
-  }
 /*              MIDDLE CONTAINTER                */
 #middle
 {
