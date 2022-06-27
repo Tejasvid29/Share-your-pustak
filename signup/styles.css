@@ -1,10 +1,11 @@
 body
 {
   
-  margin: 0;
+  margin-top: 12%;
+  margin-bottom: 6%;
   padding: 0;
   font-family: sans-serif;
-  background-image: url(images/download.jpeg) ;
+  background-image: url(images/sexy.jpeg) ;
   background-size: cover;
   background-position: center;
 }
@@ -12,10 +13,15 @@ body
 {
   width: 300px;
   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-  background: #fff;
+  background: white;
   padding: 20px;
   margin: 8% auto 0;
   text-align: center;
+  border-radius: 20px;
+  opacity: 0.6;
+}
+.signup:hover{
+  opacity: 0.9;
 }
 .signup h1
 {
@@ -46,10 +52,19 @@ button
 .signup_button
 {
   background-color: #1c8adb;
+
+}
+.signup_button:hover{
+  background-color: black;
 }
 .tweet_button
 {
   background-color: #21afde;
+}
+.tweet_button:hover{
+  background-color: white;
+  border: 2px solid #21afde;
+  color: #21afde;
 }
 a
 {
