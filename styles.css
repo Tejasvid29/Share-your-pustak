@@ -95,7 +95,7 @@ a{
     text-align: center;
     padding-top: 12%;
     padding-bottom: 7%;
-    background-color: #000;
+    background-color: #DCD7C9;
   }
   .problems{
     font-size: 2rem;
@@ -271,4 +271,5 @@ a{
 }
 .cr{
    margin-top: 50px;
+   color: white;
 }
