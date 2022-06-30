@@ -25,6 +25,8 @@ body{
 }
 .brand{
     color: white;
+    font-family: 'Square Peg', cursive;
+    font-size: 3rem;
 }
 .search-container{
     display: inline-block;
@@ -53,6 +55,12 @@ input[type=text] {
 }
 a{
     text-decoration: none;
+}
+.donate{
+    color: white;
+}
+.donate:hover{
+    color: #000;
 }
 .item{
     margin: 0 20px;
